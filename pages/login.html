@@ -15,14 +15,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
     <title>Login</title>
+    <style> 
+    </style>
 </head>
 
 <body>
-    <div class="wrapper-login container">
+    <!-- Login Part is Here -->
+    <div class="wrapper-login">
+        <!-- Login - Here -->
         <div class="wrapper-form d-flex align-items-center justify-content-center">
             <div class="wrapper-image">
                 <img src="https://tktg.vn/wp-content/uploads/2024/04/user-form-1.png" alt="this is banner">
             </div>
+
             <form class="form d-flex align-items-center flex-column" action="">
                 <h1 class="py-4 text-center">
                     <span class="text-form">Login</span>
@@ -38,17 +43,85 @@
                         <input type="password" class="form-control" id="exampleInputPassword1"
                             placeholder="Enter your Password">
                     </div>
-                    <div class="login-social d-flex align-items-center justify-content-end gap-2 mb-3">
-                        <a href="#" class="text-login"><i class="fa-brands fa-facebook item-contact"
-                                style="color: blue"></i></a>
-                        <a href="#" class="text-login"><i class="fa-brands fa-google item-contact"
-                                style="color: red;"></i></a>
+                    <div class="login-social d-flex align-items-center justify-content-between gap-2 mb-3">
+                        <a href="!#">Forget your password</a>
+                        <div class="d-flex align-items-center justify-content-center gap-2">
+                            <a href="#" class="text-login"><i class="fa-brands fa-facebook item-contact"
+                                    style="color: blue"></i></a>
+                            <a href="#" class="text-login"><i class="fa-brands fa-google item-contact"
+                                    style="color: red;"></i></a>
+                        </div>
                     </div>
-                    <button class="btn-submit" type="submit">Go <i class="fa-solid fa-person-running"></i></button>
+                    <d-flex class="align-items-center justify-content-center gap-3">
+                        <button class="btn-submit" type="submit">Go <i
+                                class="fa-solid fa-right-to-bracket"></i></button>
+                        <button class="btn-submit btn-register" type="submit">Register <i
+                                class="fa-solid fa-registered"></i>
+                            </i></button>
+                    </d-flex>
                 </div>
             </form>
         </div>
+        <!-- Register Part is Here -->
+        <div class="wrapper-register">
+            <div class="wrapper-regis-form d-flex align-items-center justify-content-center">
+                <!-- Reigster- Here -->
+                <form class="form-regis d-flex align-items-center flex-column">
+                    <h1 class="text-center mt-3">
+                        <span class="text-form">Register</span>
+                        <span class="text-form">your Account</span>
+                    </h1>
+                    <div class="wrapper-input-regis d-flex flex-column">
+                        <div class="mb-3">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">UserName*</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Enter your UserName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email*</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Enter your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password*</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Enter your Password">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-submit btn-login" type="submit">Go <i
+                            class="fa-solid fa-right-to-bracket"></i></button>
+                </form>
+                <div class="wrapper-image-regis d-flex align-items-center justify-content-center">
+                    <img src="https://tktg.vn/wp-content/uploads/2024/04/user-discount.png" alt="this is banner">
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+    <script>
+        const btnRegis = document.querySelector('.btn-register');
+        const btnLogin = document.querySelector('.btn-login');
+        const formLogin = document.querySelector('.wrapper-form');
+        const formRegis = document.querySelector('.wrapper-register');
+
+        btnRegis.onclick = (e) => {
+            e.preventDefault();
+            formLogin.classList.add('hidden');
+            formRegis.classList.add('visible');
+        }
+
+        btnLogin.onclick = (e) => {
+            e.preventDefault();
+            formRegis.classList.remove('visible');
+            formLogin.classList.remove('hidden');
+        }
+
+    </script>
+
 </body>
 
 </html>

@@ -7,6 +7,8 @@ const imgBannerAbout = $('.img_banner');
 const contentAbout = $('.right-side-about');
 const serviceContent = $('.service-content');
 
+
+
 const app = {
     // Do with event of page
     handleEvents: function () {
@@ -22,7 +24,19 @@ const app = {
                 contentAbout.classList.remove('visible');
                 serviceContent.classList.remove('visible');
             }
-        }
+        };
+        // const btnRegister = $('.btn-register');
+
+        // const showOutForm = () => {
+        //     const wrapperForm = $('.wrapper-form');
+        //     const wrapperRegis = $('wrapper-register');
+
+        //     btnRegister.addEventListener('click', () => {
+        //         alert('hello im here')
+        //     });
+        // };
+
+
 
         window.addEventListener('scroll', checkScroll);
         checkScroll();
