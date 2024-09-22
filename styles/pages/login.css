@@ -1,9 +1,11 @@
-.wrapper-form{
-    display: flex;
+.wrapper-login {
+    display: block;
+    margin-top: 50px;
 }
 
-.wrapper-form.hidden {
-    display: none;
+.wrapper-login.hidden {
+    position: absolute;
+    top: -800px;
 }
 
 .wrapper-image img {

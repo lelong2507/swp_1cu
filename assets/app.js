@@ -28,7 +28,7 @@ const app = {
         // const btnRegister = $('.btn-register');
 
         // const showOutForm = () => {
-        //     const wrapperForm = $('.wrapper-form');
+        //     const wrapperForm = $('.wrapper-login');
         //     const wrapperRegis = $('wrapper-register');
 
         //     btnRegister.addEventListener('click', () => {

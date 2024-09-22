@@ -15,15 +15,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
     <title>Login</title>
-    <style> 
-    </style>
 </head>
 
 <body>
     <!-- Login Part is Here -->
-    <div class="wrapper-login">
+    <div class="wrapper-form">
         <!-- Login - Here -->
-        <div class="wrapper-form d-flex align-items-center justify-content-center">
+        <div class="wrapper-login d-flex align-items-center justify-content-center ">
             <div class="wrapper-image">
                 <img src="https://tktg.vn/wp-content/uploads/2024/04/user-form-1.png" alt="this is banner">
             </div>
@@ -105,12 +103,13 @@
     <script>
         const btnRegis = document.querySelector('.btn-register');
         const btnLogin = document.querySelector('.btn-login');
-        const formLogin = document.querySelector('.wrapper-form');
+        const formLogin = document.querySelector('.wrapper-login');
         const formRegis = document.querySelector('.wrapper-register');
 
         btnRegis.onclick = (e) => {
             e.preventDefault();
-            formLogin.classList.add('hidden');
+            console.log(formLogin);
+            formLogin.classList.add('hidden')
             formRegis.classList.add('visible');
         }
 
