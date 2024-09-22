@@ -1,6 +1,13 @@
 .wrapper-login {
     display: block;
     margin-top: 50px;
+    border-radius: 20px;
+    transition: all 1s ease-in;
+}
+
+.wrapper-login:hover{
+    box-shadow: 0 0px 10px  var(--color--organe);
+    transform: scale(1);
 }
 
 .wrapper-login.hidden {

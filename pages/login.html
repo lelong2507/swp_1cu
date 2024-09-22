@@ -42,7 +42,7 @@
                             placeholder="Enter your Password">
                     </div>
                     <div class="login-social d-flex align-items-center justify-content-between gap-2 mb-3">
-                        <a href="!#">Forget your password</a>
+                        <a href="./forgot_password.html">Forget your password</a>
                         <div class="d-flex align-items-center justify-content-center gap-2">
                             <a href="#" class="text-login"><i class="fa-brands fa-facebook item-contact"
                                     style="color: blue"></i></a>
@@ -64,7 +64,7 @@
         <div class="wrapper-register">
             <div class="wrapper-regis-form d-flex align-items-center justify-content-center">
                 <!-- Reigster- Here -->
-                <form class="form-regis d-flex align-items-center flex-column">
+                <form class="form-regis d-flex align-items-center flex-column" action="signup" method="POST">
                     <h1 class="text-center mt-3">
                         <span class="text-form">Register</span>
                         <span class="text-form">your Account</span>
@@ -73,29 +73,37 @@
                         <div class="mb-3">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">UserName*</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                <input type="text" class="form-control" id="exampleInputEmail1" name="user"
                                     placeholder="Enter your UserName">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email*</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                <input type="email" class="form-control" id="exampleInputEmail1" name="email"
                                     placeholder="Enter your Email">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password*</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                <input type="password" class="form-control" id="exampleInputPassword1" name="pass"
                                     placeholder="Enter your Password">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Re-Password*</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" name="repass"
+                                    placeholder="Enter your Re-Password">
                             </div>
                         </div>
                     </div>
-                    <button class="btn-submit btn-login" type="submit">Go <i
-                            class="fa-solid fa-right-to-bracket"></i></button>
+                    <div class="d-flex align-items-center justify-content-center gap-3">
+                        <button class="btn-submit" type="submit">Save <i class=""></i></button>
+                        <button class="btn-submit btn-login">Go <i class="fa-solid fa-right-to-bracket"></i></button>
+                    </div>
                 </form>
                 <div class="wrapper-image-regis d-flex align-items-center justify-content-center">
                     <img src="https://tktg.vn/wp-content/uploads/2024/04/user-discount.png" alt="this is banner">
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 

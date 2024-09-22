@@ -12,8 +12,7 @@
 @import url('./layouts/header.css');
 @import url('./layouts/about_us.css');
 @import url('./layouts/service.css');
-
-
+@import url('./layouts/use_profile.css');
 
 body {
   width: 100%;
