@@ -1,0 +1,16 @@
+:root {
+    /* Color Value */
+    --color--white: #fff;
+    --color--black: #000;
+    --color--contact: rgba(0, 0, 0, 0.1);
+    --color--organe: #fba311;
+    --color--main: rgb(19, 41, 152);
+    --color--gray: rgba(248, 248, 249, 0.577);
+
+    /* Border Value */
+    --border--bottom: rgba(255, 255, 255, 0.3);
+
+    /* font-weight */
+    --font--weight-lg: 700px;
+    --font--weight-sm: 20px;
+}

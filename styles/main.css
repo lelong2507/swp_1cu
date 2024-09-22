@@ -1,0 +1,13 @@
+/* from base fol */
+@import url('./base/reset.css');
+@import url('./base/global.css');
+@import url('./base/variable.css');
+@import url('./base/text.css');
+@import url('./base/button.css');
+/* from components fol */
+/* from pages fol */
+@import url('./pages/login.css');
+/* from layouts fol */
+@import url('./layouts/header.css');
+@import url('./layouts/about_us.css');
+@import url('./layouts/service.css');

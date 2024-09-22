@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Google fonts API links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Happy Cleaner</title>
+</head>
+
+<body>
+    <!-- Header Part -->
+    <header class="app-header">
+        <div class="contact_with_us d-flex aligns-items-center justify-content-around">
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <span>
+                    <i class="fa-solid fa-phone item-contact"></i>
+                    0123-456-78
+                </span>
+                <span>
+                    <i class="fa-solid fa-envelope item-contact"></i>
+                    daudinhvuotkeo@gmail.com
+                </span>
+            </div>
+            <div class="wrapper_profile d-flex align-items-center justify-content-center gap-3 avatar dropdown">
+                <img src="./assets/images/avatar.jpg" alt="this is avatar" class="dropdown-toggle" id="avatarDropdown"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                <span>Nhật Đẹp Trai</span>
+                <ul class="dropdown-menu m-2" aria-labelledby="avatarDropdown">
+                    <li><a class="dropdown-item" href="./pages/login.html">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+        <div class="navbar-main d-flex align-items-center justify-content-around">
+            <!-- Logo menu -->
+            <div class="logo-menu d-flex align-items-center justify-content-center">
+                <img class="logo_img" src="assets/images/logo.webp" alt="this is logo app">
+            </div>
+            <!-- Navbar-Section -->
+            <div class="navbar-section">
+                <ul class="d-flex align-items-center gap-4">
+                    <li class="item-navbar"><a class="a-item" href="#!">Home</a></li>
+                    <li class="item-navbar">
+                        <a class="a-item dropdown" href="#!" class="dropdown-toggle" id="avatarDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu m-1" aria-labelledby="avatarDropdown">
+                            <li><a class="dropdown-item" href="#">Option1</a></li>
+                            <li><a class="dropdown-item" href="#">Option2</a></li>
+                            <li><a class="dropdown-item" href="#">Option3</a></li>
+                        </ul>
+                    </li>
+                    <li class="item-navbar"><a class="a-item" href="#!">Introduce</a></li>
+                    <li class="item-navbar"><a class="a-item" href="#!">Quote</a></li>
+                    <li class="item-navbar"><a class="a-item" href="#!">Project</a></li>
+                    <li class="item-navbar"><a class="a-item" href="#!">News</a></li>
+                    <li class="item-navbar"><a class="a-item" href="#!">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Show - list qoutes - list cate quotes - price -->
+            <button class="btn-show-quotes">Get Quotes</button>
+        </div>
+
+        <div class="register_service container d-flex align-items-center justify-content-around mt-5">
+            <!-- left side -->
+            <div class="left-side">
+                <span class="text-solution">FULL CARING SOLUTION</span>
+                <span class="text-service">for Building, Office, Factory</span>
+                <p>Contact us! TKT Company, we provide cleaning, pest control, maintenance, landscaping service and
+                    more…</p>
+
+                <button class="btn-show-quotes">All Quotes</button>
+            </div>
+            <!-- right side -->
+            <div class="right-side d-flex align-items-center justify-content-center">
+                <!-- Register - Cleaner - Service -->
+                <form action="" class="wrapper-form">
+                    <div class="d-flex flex-column align-items-start justify-content-center gap-2">
+                        <h2 class="pb-3 p-2">
+                            <span class="text-form">Get</span>
+                            <span class="text-form">Consultation</span>
+                        </h2>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label ">Name*</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email*</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">PhoneNumber*</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <!-- Button Send Request -->
+                        <button class="btn-send">Send<i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <img src="https://tktg.vn/template/assets/images/about/decor1.png" alt="" class="img_feature_header">
+    </header>
+
+    <!-- <img src="https://tktg.vn/template/assets/images/about/decor1.png" alt=""> -->
+
+    <!-- About Us Section -->
+    <section class="about_us container d-flex align-items-center justify-content-center">
+        <div class="left-side-about">
+            <img src="https://tktg.vn/wp-content/uploads/2024/06/about-2.png" alt="this is banner about image"
+                class="img_banner" width="600" height="650">
+            <img src="https://tktg.vn/template/assets/images/about/decor1.png" alt="" class="img_feature">
+        </div>
+
+        <div class="right-side-about">
+            <h2 class="text-heading ">About Us</h2>
+            <h3>
+                <span class="text-form">Building care service</span>
+                <span class="text-form">most reliable</span>
+                <span class="text-form">since 2011</span>
+            </h3>
+            <div class="content_right_side">
+                <p class="main_content">
+                    HappyCleanse Company always aims at the goal of "Comprehensive service - Saving time", constantly
+                    developing
+                    to provide comprehensive solutions in the fields of: cleaning services, maintenance, pest control,
+                    landscape care. with criteria of high quality, environmental friendliness and competitive price.
+                </p>
+            </div>
+            <div>
+                <button class="btn-show-quotes">More...</button>
+                <a class="text_about">
+                    <i class="fa-solid fa-phone item-contact"></i>
+                    (84+) 587 - 407 - 107
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="service">
+        <div class="service-content d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-heading text-center">Service</h1>
+            <h2>
+                <span class="text-form">The best</span>
+                <span class="text-form">building care service</span>
+                <span class="text-form">for you</span>
+            </h2>
+            <p class="text_service">
+                HappyCleanse Company is an expert in providing comprehensive care services for offices, buildings,
+                shopping
+                centers, supermarkets, hospitals, schools, factories, workshops, restaurants, hotels, and chain stores…
+                Our key services: cleaning, pest control, electrical/constructional maintenance, repair, waterproofing,
+                landscaping.
+            </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center gap-5">
+            <button class="btn-service">Service</button>
+            <button class="btn-service">Quotes</button>
+        </div>
+        <div class="decor-req">
+            <div class="wrapper-list-service">
+                <ul class="list-service">
+                    <!-- service-item-1 -->
+                    <li class="service-item">
+                        <div class="product-box">
+                            <div class="product-image">
+                                <img src="https://tktg.vn/wp-content/uploads/2024/07/dich-vu-ve-sinh-chung-cu-chuyen-nghiep.jpg"
+                                    alt="">
+                            </div>
+                            <h3 class="text_service_item">Apartment cleaning service</h3>
+                        </div>
+                        <img src="./assets/images/dot-line.svg" alt="dot-line" class="dot-line" width="100"
+                            height="100">
+                    </li>
+                    <!-- Bạn có thể thêm nhiều service-item ở đây -->
+                </ul>
+            </div>
+            <div class="img-decor">
+                <img src="https://tktg.vn/template/assets/images/common/decor-req.png" alt="decor-req">
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="./assets/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+.left-side-about {
+    position: relative;
+}
+
+.left-side-about .img-banner img {
+    width: 200px;
+    height: 200px;
+}
+
+.about_us {
+    position: relative;
+    margin-top: 100px;
+}
+
+.img_feature {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: -170px;
+    bottom: -150px;
+}
+
+.img_banner {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-out;
+}
+
+.img_banner.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.right-side-about {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.right-side-about.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

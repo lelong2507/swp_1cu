@@ -1,0 +1,49 @@
+.service {
+    margin-top: 200px;
+    z-index: 1;
+    background-image: url('https://tktg.vn/template/assets/images/home/banner-pd.png');
+    background-size: cover;
+    position: relative;
+}
+
+.service-content {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.service-content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.service .text-heading {
+    padding-top: 100px;
+}
+
+.decor-req img {
+    width: 1000px;
+    height: 300px;
+}
+
+.product-image img {
+    width: 340px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.service-item {
+    width: 400px;
+    height: auto;
+    border-radius: 1.6rem;
+    background: #FFF;
+    box-shadow: 0rem 0.4rem 1.6rem 0rem rgba(0, 0, 0, 0.25);
+    padding: 1.2rem;
+    text-align: center,
+}
+
+.dot-line img {
+    width: 100px;
+    height: 100px;
+}

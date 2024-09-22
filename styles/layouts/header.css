@@ -1,0 +1,150 @@
+* {
+    color: var(--color--white);
+}
+
+.app-header {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('https://tktg.vn/template/assets/images/home/banner.png');
+    background-size: cover;
+    object-fit: cover;
+}
+
+.contact_with_us {
+    width: 100%;
+    background-color: var(--color--contact);
+    padding: 5px;
+    border-bottom: 1px solid var(--border--bottom);
+}
+
+.contact_with_us .item {
+    transition: tranform 0.5s ease-in;
+}
+
+.contact_with_us .item-contact {
+    animation: shake 1s ease-in infinite;
+}
+
+.contact_with_us .item:hover {
+    animation: shake 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color--black);
+}
+
+.item-menu {
+    font-size: 30px;
+    padding-right: 10px;
+    animation: shake 0.5s ease-in;
+}
+
+.item-menu:hover {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0);
+    }
+
+    25% {
+        transform: translate(-2px, 0);
+    }
+
+    50% {
+        transform: translate(2px, 0);
+    }
+
+    75% {
+        transform: translate(-2px, 0);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+.app-header {
+    width: 100%;
+    height: 800px;
+    background-color: var(--color--gray);
+}
+
+.logo_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.wrapper_profile {
+    padding-left: 650px;
+}
+
+/* navbar-secion */
+
+.dropdown-menu {
+    margin-top: 20px;
+}
+
+.navbar-main {
+    background-color: var(--color--contact);
+}
+
+
+/* left - right */
+.left-side {
+    justify-content: start;
+    margin-right: 30px;
+    width: 100%;
+}
+
+.right-side {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.form-control,
+.form-select {
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.form-control input {
+    width: 100%;
+}
+
+.wrapper-form {
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    color: var(--color--black);
+}
+
+.img_feature_header {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: -200px;
+    right: -150px;
+}
