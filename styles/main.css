@@ -9,6 +9,7 @@
 /* from pages fol */
 @import url('./pages/login.css');
 @import url('./pages/register.css');
+@import url('./pages/forgot-password.css');
 /* from layouts fol */
 @import url('./layouts/header.css');
 @import url('./layouts/about_us.css');

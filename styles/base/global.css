@@ -26,3 +26,11 @@
     text-decoration: none;
     color: var(--color--black);
 }
+
+.line {
+    width: 40px;
+    border-radius: 20px;
+    background-color: var(--color--white);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
