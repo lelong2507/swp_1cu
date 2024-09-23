@@ -21,10 +21,12 @@
     padding-right: 25px;
 }
 
+
 .welcome-section {
     width: 100%;
     background-color: var(--color--organe);
     margin-top: 10px;
+    margin-bottom: 120px;
 }
 
 .wrapper-img-welcome img {
@@ -47,12 +49,34 @@
 }
 
 .wrapper-profile {
-    padding: 40px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-.profile-section {
-    background-color: var(--color--white);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border: 20px;
-    margin-top: 20px;
+.avatar-part {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    height: 400px;
+    position: relative;
+}
+
+.wrapper-btn {
+    padding-right: 20px;
+}
+
+.avatar_user {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.wrapper-avatar {
+    position: absolute;
+    top: -100px;
+    left: 120px;
 }

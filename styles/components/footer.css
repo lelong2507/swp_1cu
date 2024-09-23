@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-color: var(--color--main--fresh);
+    color: var(--color--black);
+}
+
+.footer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}

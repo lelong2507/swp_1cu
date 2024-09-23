@@ -5,6 +5,7 @@
 @import url('./base/text.css');
 @import url('./base/button.css');
 /* from components fol */
+@import url('./components/footer.css');
 /* from pages fol */
 @import url('./pages/login.css');
 @import url('./pages/register.css');
@@ -13,6 +14,7 @@
 @import url('./layouts/about_us.css');
 @import url('./layouts/service.css');
 @import url('./layouts/use_profile.css');
+
 
 body {
   width: 100%;
