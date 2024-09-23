@@ -7,6 +7,7 @@
     --color--main: rgb(19, 41, 152);
     --color--main--fresh: #2051B2;
     --color--gray: rgba(248, 248, 249, 0.577);
+    --color--card: #ebf3ff;
 
     /* Border Value */
     --border--bottom: rgba(255, 255, 255, 0.3);

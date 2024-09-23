@@ -1,0 +1,6 @@
+.advantage-item {
+    width: 420px;
+    padding: 20px;
+    background-color: var(--color--card);
+    border-radius: 20px;
+}
